@@ -14,5 +14,5 @@ Return:
 }
 
 void main() {
-  print(func([7, 8, 3, 5, 2]));
+  print(func([1, 2, 3, 4, 5]));
 }
