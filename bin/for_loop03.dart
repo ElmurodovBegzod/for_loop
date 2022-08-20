@@ -1,8 +1,11 @@
 int func(List<int> numbers) {
-  int x = 1;
-  for (int s = 0; s < numbers.length; s += 2) {
-    x += numbers[s];
+  int x = 0;
+  for (int i = 0; i < numbers.length; i = i + 1) {
+    if (i % 2 == 1) {
+      x += numbers[i];
+    }
   }
+
 /*
    Given a list of numbers, return the sum of the numbers at odd index in the list
 Args:
